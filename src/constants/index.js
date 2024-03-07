@@ -211,29 +211,70 @@ export const collabApps = [
 ];
 
 export const pricing = [
+  // {
+  //   id: "0",
+  //   title: "Starter",
+  //   description: "Ideal for: Small businesses or individual users looking to use Ahmed.",
+  //   price: "9.99/mo",
+  //   features: [
+  //     "Access to Starter features",
+  //     "Up to 100 conversations per day",
+  //     "English language",
+  //     "Default Avatar And Voice",
+  //   ],
+  // },
+  // {
+  //   id: "1",
+  //   title: "Basic",
+  //   description: "Ideal for: Small businesses seeking more customization and enhanced support.",
+  //   price: "29.99/mo",
+  //   features: [
+  //     "Access to Basic features",
+  //     "Up to 200 conversations per day",
+  //     "Upto 2 languages available",
+  //     "Upto 2 Avatars and 2 Voices ",
+  //     "Standard customer support"
+  //   ],
+  // },
+  // {
+  //   id: "2",
+  //   title: "Professional",
+  //   description: "Ideal for: Growing & Large organizations with specific needs and high-volume usage.",
+  //   price: null,
+  //   features: [
+  //     "All Pro features",
+  //     "unlimited conversations",
+  //     "Custom Avatars & Multiple Languages",
+  //     "custom integrations",
+  //     "dedicated account manager",
+  //     "Priority customer support"
+
+  //   ],
+  // },
+
+
   {
     id: "0",
     title: "Starter",
     description: "Ideal for: Small businesses or individual users looking to use Ahmed.",
-    price: "9.99/mo",
+    price: "Price/mo",
     features: [
-      "Access to Starter features",
-      "Up to 100 conversations per day",
-      "English language",
-      "Default Avatar And Voice",
+      "feature 1",
+      "feature 2",
+      "feature 3",
+      "feature 4",
     ],
   },
   {
     id: "1",
     title: "Basic",
     description: "Ideal for: Small businesses seeking more customization and enhanced support.",
-    price: "29.99/mo",
+    price: "Price/mo",
     features: [
-      "Access to Basic features",
-      "Up to 200 conversations per day",
-      "Upto 2 languages available",
-      "Upto 2 Avatars and 2 Voices ",
-      "Standard customer support"
+      "feature 1",
+      "feature 2",
+      "feature 3",
+      "feature 4 ",
     ],
   },
   {
@@ -242,12 +283,10 @@ export const pricing = [
     description: "Ideal for: Growing & Large organizations with specific needs and high-volume usage.",
     price: null,
     features: [
-      "All Pro features",
-      "unlimited conversations",
-      "Custom Avatars & Multiple Languages",
-      "custom integrations",
-      "dedicated account manager",
-      "Priority customer support"
+      "feature 1",
+      "feature 2",
+      "feature 3",
+      "feature 4",
 
     ],
   },

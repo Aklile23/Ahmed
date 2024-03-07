@@ -112,8 +112,8 @@ const Services = () => {
                 <img
                   src={two}
                   className="w-full h-full object-cover"
-                  width={520}
-                  height={400}
+                  width={720}
+                  height={600}
                   alt="Scary robot"
                 />
               </div>
