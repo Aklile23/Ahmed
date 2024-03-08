@@ -33,7 +33,7 @@ const Pricing = () => {
         />
         <h1 className="flex justify-center py-0">
           <p className="body-2 mb-[3rem] text-n-1">
-            Please note: All Pricing scales based on the number of nodes installed.
+            Please note: All Pricing scales are based on the number of nodes installed.
           </p>
         </h1>
         <div className="relative">
