@@ -260,7 +260,6 @@ export const pricing = [
     description: "Ideal for: Small businesses or individual users looking to use Ahmed.",
     price: "120/mo",
     features: [
-      "Single Node",
       "Up to 100 Conversations per Day",
       "English Language",
       "Default Avatar And Voice",
@@ -273,7 +272,6 @@ export const pricing = [
     description: "Ideal for: Small businesses seeking more customization and enhanced support.",
     price: "240/mo",
     features: [
-      "Up to Three Nodes",
       "Up to 300 conversations per day",
       "Upto 2 languages, 2 Avatars and 2 Voices available",
       "Monthly Data Update",
@@ -287,7 +285,6 @@ export const pricing = [
     price: null,
     features: [
       "All Mid Level Features",
-      "Unlimited Nodes",
       "Unlimited Conversations",
       "Multiple Languages, Avatars and Voices ",
       "Daily Data Update",
