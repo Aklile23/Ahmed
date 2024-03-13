@@ -2,6 +2,7 @@ import brainwave from "./brainwave.svg";
 import AhmedLogo from "./AhmedLogo.png";
 import AhmedLogo2 from "./AhmedLogo2.png";
 import ArefLogo from "./ArefLogo.png"
+import ArefLogo2 from "./ArefLogo2.png"
 import AhmedBackground from "./AhmedBackground.png";
 import AhmedBackground2 from "./AhmedBackground2.png";
 import check from "./check.svg";
@@ -161,5 +162,6 @@ export {
   one,
   AhmedBackground2,
   two,
-  ArefLogo
+  ArefLogo,
+  ArefLogo2
 };

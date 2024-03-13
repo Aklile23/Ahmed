@@ -14,7 +14,7 @@ const Benefits = () => {
         <Heading
           className="md:max-w-md lg:max-w-2xl"
           tag="Applications"
-          title="Speak, Learn, Thrive: Ahmed's Triple Threat"
+          title="Speak, Learn, Thrive: Aref's Triple Threat"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

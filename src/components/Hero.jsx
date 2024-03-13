@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="h1 mb-6">
           Meet Your Perfect AI Companion, Say Hello to  {` `}
               <span className="inline-block relative">
-              Ahmed{" "}
+              AREF{" "}
                 <img
                   src={curve}
                   className="absolute top-full left-0 w-full xl:-mt-2"
@@ -38,7 +38,7 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Discover the power of seamless, human-like conversations tailored just for you. 
-            Ahmed brings your interactions to life with intelligent responses in any language, anytime.
+            Aref brings your interactions to life with intelligent responses in any language, anytime.
           </p>
           <Button href="/#demo" white>
             Get started

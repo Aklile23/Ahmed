@@ -34,7 +34,7 @@ const Demo = () => {
             <div className='container mt-6'>
                 <Heading
                     tag="Intro"
-                    title="Who is Ahmed?"
+                    title="Who is Aref?"
                 />
                 <video className="h-full w-full rounded-lg" controls ref={videoRef}>
                     <source src={Ahmed} type="video/mp4" />

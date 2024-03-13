@@ -29,7 +29,7 @@ const Pricing = () => {
 
         <Heading
           tag="Get started tODAY"
-          title="Ahmed's Pricing Plans"
+          title="Aref's Pricing Plans"
         />
         {/*<h1 className="flex justify-center py-0">
           <p className="body-2 mb-[3rem] text-n-1">

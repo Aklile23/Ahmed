@@ -1,5 +1,5 @@
 //More
-import { AhmedLogo, brainwaveSymbol, check } from "../assets";
+import { AhmedLogo, ArefLogo2, brainwaveSymbol, check } from "../assets";
 import { collabApps, collabContent, collabText, collabText1, collabText3 } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
@@ -12,7 +12,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[40rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            Beyond the Basics: More Exciting Applications of Ahmed
+            Beyond the Basics: More Exciting Applications of Aref
           </h2>
 
           <ul className="max-w-[32rem] mb-10 md:mb-14">
@@ -40,10 +40,9 @@ const Collaboration = () => {
               <div className="w-[16rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
-                    src={AhmedLogo}
-                    width={180}
+                    src={ArefLogo2}
+                    width={240}
                     height={148}
-                    alt="brainwave"
                   />
                 </div>
               </div>

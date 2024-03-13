@@ -18,7 +18,7 @@ const Services = () => {
       <div className="mt-10 container">
         <Heading
           tag="FEATURES"
-          title="Ahmed in Focus: Zooming in on Key Features"
+          title="Aref in Focus: Zooming in on Key Features"
         />
 
         <div className="relative">
@@ -36,7 +36,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[23rem] ml-auto">
               <h4 className="h4 mb-4">Multilingual Conversations</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Ahmed: Mastering Multiple Languages for Seamless Global Communication.
+                Aref: Mastering Multiple Languages for Seamless Global Communication.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -69,7 +69,7 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h4 className="h4 mb-4">Natural Language Understanding</h4>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Ahmed comprehends with precision, using advanced natural language processing to 
+                  Aref comprehends with precision, using advanced natural language processing to 
                   deliver accurate and context-aware responses, just like a human.
                 </p>
               </div>
@@ -81,7 +81,7 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Flexible Customization</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Ahmed: A Fully Customizable Experience, from Knowledge Base to Avatar, Tailored to Your Preferences.
+                  Aref: A Fully Customizable Experience, from Knowledge Base to Avatar, Tailored to Your Preferences.
                 </p>
 
                 <ul className="flex items-center justify-between">

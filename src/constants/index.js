@@ -122,16 +122,16 @@ export const roadmap = [
 ];
 
 export const  collabText =
-  "Elevate guest experiences in hotels and resorts with Ahmed, offering impecable assistance for reservations, amenities information, and local attractions guidance.";
+  "Elevate guest experiences in hotels and resorts with Aref, offering impecable assistance for reservations, amenities information, and local attractions guidance.";
 
 export const  collabText1 =
-  "Ahmed simplifies property searches and inquiries, providing insights on listings, market trends, and buying or renting tips.";
+  "Aref simplifies property searches and inquiries, providing insights on listings, market trends, and buying or renting tips.";
 
 export const  collabText2 =
-  "Transform how commuters access information with Ahmed, offering guidance on schedules, routes, and fare details for public transport systems";
+  "Transform how commuters access information with Aref, offering guidance on schedules, routes, and fare details for public transport systems";
 
 export const  collabText3 =
-  " Each of Ahmed's capabilitys, from multilingual understanding to customizable responses, are crafted to enrich interactions, making every dialogue seamlessly intelligent and uniquely personal.";
+  " Each of Aref's capabilitys, from multilingual understanding to customizable responses, are crafted to enrich interactions, making every dialogue seamlessly intelligent and uniquely personal.";
 
   export const collabContent = [
   {
@@ -257,7 +257,7 @@ export const pricing = [
   {
     id: "0",
     title: "Small Level",
-    description: "Ideal for: Small businesses or individual users looking to use Ahmed.",
+    description: "Ideal for: Small businesses or individual users looking to use Aref.",
     price: "120/mo",
     features: [
       "Up to 100 Conversations per Day",
@@ -298,7 +298,7 @@ export const benefits = [
   {
     id: "0",
     title: "Conversational Customer Service",
-    text: "Redefine client interactions with Ahmed, providing instant, reliable customer service dialogue round-the-clock.",
+    text: "Redefine client interactions with Aref, providing instant, reliable customer service dialogue round-the-clock.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -306,7 +306,7 @@ export const benefits = [
   {
     id: "1",
     title: "Healthcare Information Assistant",
-    text: "Ahmed offers conversational support, supplying information on health topics and guiding patients through Healthcare facility resources.",
+    text: "Aref offers conversational support, supplying information on health topics and guiding patients through Healthcare facility resources.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -315,7 +315,7 @@ export const benefits = [
   {
     id: "2",
     title: "Interactive Learning Aid",
-    text: "Enrich the education experience with Ahmed's interactive dialogue, engaging students in subject matter discussions and deep explanations on any topic.",
+    text: "Enrich the education experience with Aref's interactive dialogue, engaging students in subject matter discussions and deep explanations on any topic.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -323,7 +323,7 @@ export const benefits = [
   {
     id: "3",
     title: "Travel Information Concierge",
-    text: "Ahmed acts as an excellent concierge, offering travelers details about destinations, cultural and historical insights, and navigational tips.",
+    text: "Aref acts as an excellent concierge, offering travelers details about destinations, cultural and historical insights, and navigational tips.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -332,7 +332,7 @@ export const benefits = [
   {
     id: "4",
     title: "Retail Inquiry Specialist",
-    text: "Enhance the shopping experience with Ahmed's product information and inventory discussions, guiding customers through their purchasing journey.",
+    text: "Enhance the shopping experience with Aref's product information and inventory discussions, guiding customers through their purchasing journey.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -340,7 +340,7 @@ export const benefits = [
   {
     id: "5",
     title: "Corporate Information Relay",
-    text: "Facilitate corporate communications with Ahmed, providing 24/7 access to company information, personnel directories, and scheduling details.",
+    text: "Facilitate corporate communications with Aref, providing 24/7 access to company information, personnel directories, and scheduling details.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
