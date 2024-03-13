@@ -5,7 +5,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
-import { AhmedLogo } from "../assets";
+import { AhmedLogo, ArefLogo2 } from "../assets";
 
 const Benefits = () => {
   return (
@@ -49,7 +49,7 @@ const Benefits = () => {
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-5">
                   {item.imageUrl && (
                     <img
-                      src={AhmedLogo}
+                      src={ArefLogo2}
                       width={380}
                       height={362}
                       alt={item.title}
