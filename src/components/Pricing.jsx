@@ -28,10 +28,14 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Ahmed"
+          tag="Get started tODAY"
           title="Ahmed's Pricing Plans"
         />
-
+        {/*<h1 className="flex justify-center py-0">
+          <p className="body-2 mb-[3rem] text-n-1">
+            Please note: All Pricing scales are based on the number of nodes installed.
+          </p>
+        </h1>*/}
         <div className="relative">
           <PricingList />
           <LeftLine />

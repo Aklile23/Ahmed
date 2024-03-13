@@ -253,40 +253,42 @@ export const pricing = [
   // },
 
 
+  //Draft
   {
     id: "0",
-    title: "Starter",
+    title: "Small Level",
     description: "Ideal for: Small businesses or individual users looking to use Ahmed.",
-    price: "Price/mo",
+    price: "120/mo",
     features: [
-      "feature 1",
-      "feature 2",
-      "feature 3",
-      "feature 4",
+      "Up to 100 Conversations per Day",
+      "English Language",
+      "Default Avatar And Voice",
+      "One Time & Limited Data Update"
     ],
   },
   {
     id: "1",
-    title: "Basic",
+    title: "Mid Level",
     description: "Ideal for: Small businesses seeking more customization and enhanced support.",
-    price: "Price/mo",
+    price: "240/mo",
     features: [
-      "feature 1",
-      "feature 2",
-      "feature 3",
-      "feature 4 ",
+      "Up to 300 conversations per day",
+      "Upto 2 languages, 2 Avatars and 2 Voices available",
+      "Monthly Data Update",
+      "Standard customer support"
     ],
   },
   {
     id: "2",
-    title: "Professional",
+    title: "Large Level",
     description: "Ideal for: Growing & Large organizations with specific needs and high-volume usage.",
     price: null,
     features: [
-      "feature 1",
-      "feature 2",
-      "feature 3",
-      "feature 4",
+      "All Mid Level Features",
+      "Unlimited Conversations",
+      "Multiple Languages, Avatars and Voices ",
+      "Daily Data Update",
+      "Dedicated customer support"
 
     ],
   },
