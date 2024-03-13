@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { AhmedLogo, AhmedLogo2, brainwave } from "../assets";
+import { ArefLogo, AhmedLogo2, } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
@@ -38,7 +38,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-2">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img src={AhmedLogo2} width={180} height={40} alt="Brainwave" />
+          <img src={ArefLogo} width={280} height={40} />
         </a>
 
         <nav
