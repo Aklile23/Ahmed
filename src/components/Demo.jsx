@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import Section from './Section';
 import Heading from './Heading';
 import Ahmed from '../assets/Ahmed.mp4'
+import Aref from '../assets/Aref.mp4'
 
 const Demo = () => {
     const videoRef = useRef(null);
@@ -37,7 +38,7 @@ const Demo = () => {
                     title="Who is Aref?"
                 />
                 <video className="h-full w-full rounded-lg" controls ref={videoRef}>
-                    <source src={Ahmed} type="video/mp4" />
+                    <source src={Aref} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 
