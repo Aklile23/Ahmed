@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 import { ArefLogo, AhmedLogo2, } from "../assets";
@@ -37,9 +37,14 @@ const Header = () => {
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-2">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <Link className="block w-[12rem] xl:mr-8" 
+            to='/'
+            onClick={() => {
+            window.scrollTo(0, 0);
+          }}>
           <img src={ArefLogo} width={280} height={40} />
-        </a>
+        </Link>
+        
 
         <nav
           className={`${
