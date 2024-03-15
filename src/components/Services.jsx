@@ -12,9 +12,9 @@ import {
 
 import Generating from "./Generating";
 
-const Services = () => {
+const Features = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="features">
       <div className="mt-10 container">
         <Heading
           tag="FEATURES"
@@ -127,4 +127,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Features;

@@ -6,7 +6,7 @@ import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import { BottomLine } from "./design/Hero";
 
-const Collaboration = () => {
+const MoreApplications = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
@@ -83,4 +83,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default MoreApplications;

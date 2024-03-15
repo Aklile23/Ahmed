@@ -40,17 +40,17 @@ export const navigation = [
   {
     id: "3",
     title: "Intro",
-    url: "#demo",
+    url: "#intro",
   },
   {
     id: "0",
     title: "APPLICATIONS",
-    url: "#features",
+    url: "#applications",
   },
   {
     id: "1",
     title: "FEATURES",
-    url: "#how-to-use",
+    url: "#features",
   },
   {
     id: "2",

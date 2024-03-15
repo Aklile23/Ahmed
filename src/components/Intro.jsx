@@ -4,7 +4,7 @@ import Heading from './Heading';
 import Ahmed from '../assets/Ahmed.mp4'
 import Aref from '../assets/Aref.mp4'
 
-const Demo = () => {
+const Intro = () => {
     const videoRef = useRef(null);
 
     useEffect(() => {
@@ -31,7 +31,7 @@ const Demo = () => {
         };
     }, []);
     return (
-        <Section id="demo">
+        <Section id="intro">
             <div className='container mt-6'>
                 <Heading
                     tag="Intro"
@@ -47,4 +47,4 @@ const Demo = () => {
       );
 }
 
-export default Demo;
+export default Intro;

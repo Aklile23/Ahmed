@@ -7,9 +7,9 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 import { AhmedLogo, ArefLogo2 } from "../assets";
 
-const Benefits = () => {
+const Applications = () => {
   return (
-    <Section id="features">
+    <Section id="applications">
       <div className="mt-15 container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -68,4 +68,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Applications;
