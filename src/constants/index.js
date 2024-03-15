@@ -299,7 +299,7 @@ export const benefits = [
     id: "0",
     title: "Conversational Customer Service",
     text: "Redefine client interactions with Aref, providing instant, reliable customer service dialogue round-the-clock.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/benefits/image-2.png",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
