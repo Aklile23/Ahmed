@@ -40,7 +40,7 @@ const Hero = () => {
             Discover the power of seamless, human-like conversations tailored just for you. 
             Aref brings your interactions to life with intelligent responses in any language, anytime.
           </p>
-          <Button href="/#demo" white>
+          <Button href="/#intro" white>
             Get started
           </Button>
         </div>
