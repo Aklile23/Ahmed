@@ -1,17 +1,30 @@
+import { useEffect, useState } from "react";
 import { useLocation, Link } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
-import { ArefLogo, AhmedLogo2, } from "../assets";
+import { ArefLogo } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
-import { useState } from "react";
+import BookNow from "./BookNow";
 
-// Header section for Ahmed
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
+  const [isAtTop, setIsAtTop] = useState(true); // New state to track if at top
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsAtTop(window.scrollY === 0);
+    };
+
+    // Add scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove event listener on cleanup
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const toggleNavigation = () => {
     if (openNavigation) {
@@ -31,17 +44,16 @@ const Header = () => {
   };
 
   return (
-    <div
-      className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
-        openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
-      }`}
-    >
+    <div className={`fixed top-0 left-0 w-full z-50 border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}>
+      {isAtTop && <BookNow />} {/* Conditionally render BookNow */}
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-2">
-        <Link className="block w-[12rem] xl:mr-8" 
-            to='/'
-            onClick={() => {
+        <Link
+          className="block w-[12rem] xl:mr-8"
+          to="/"
+          onClick={() => {
             window.scrollTo(0, 0);
-          }}>
+          }}
+        >
           <img src={ArefLogo} width={280} height={40} />
         </Link>
         
