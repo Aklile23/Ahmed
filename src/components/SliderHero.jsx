@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { mall, hospital, classroom } from "../assets";
-import Button from './Button';
+import React, { useRef, useEffect, useState } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { mall, hospital, classroom } from '../assets';
 
 const SliderHero = () => {
   const images = [mall, hospital, classroom];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const imageRef = useRef(null);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
   const nextImage = () => {
@@ -22,6 +24,19 @@ const SliderHero = () => {
       setIsTransitioning(false);
     }, 1000);
   };
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to(imageRef.current, {
+      scale: 2,
+      scrollTrigger: {
+        trigger: imageRef.current,
+        start: 'top top',
+        end: 'bottom top',
+        scrub: true,
+      },
+    });
+  }, []);
 
   useEffect(() => {
     const slideInterval = setInterval(() => {
@@ -35,14 +50,15 @@ const SliderHero = () => {
     transition: 'opacity 2s ease-in-out',
     opacity: isTransitioning ? 0 : 1,
   };
+
   return (
-    <div className="slider-hero max-h-25 mt-20 sm:mt-28 md:mt-32 lg:mt-40 xl:mt-90">
+    <div className="slider-hero overflow-hidden">
       <img
-        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-12 md:-translate-y-[10%] lg:-translate-y-[23%]"
         style={imageStyles}
+        ref={imageRef}
+        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-12 md:-translate-y-[10%] lg:-translate-y-[23%]"
         src={images[currentImageIndex]}
         alt="Slider Image"
-        width={1730}
       />
     </div>
   );
