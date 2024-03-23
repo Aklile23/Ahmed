@@ -258,7 +258,7 @@ export const pricing = [
     id: "0",
     title: "Small Level",
     description: "Ideal for: Small businesses or individual users looking to use Aref.",
-    price: "160/mo",
+    price: "320/mo",
     features: [
       "Up to 100 Conversations per Day",
       "English Language",
@@ -270,7 +270,7 @@ export const pricing = [
     id: "1",
     title: "Mid Level",
     description: "Ideal for: Small businesses seeking more customization and enhanced support.",
-    price: "320/mo",
+    price: "640/mo",
     features: [
       "Up to 300 conversations per day",
       "Upto 2 languages, 2 Avatars and 2 Voices available",
