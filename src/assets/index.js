@@ -61,6 +61,11 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
+import classroom from './sliders/classroom.jpg'
+import mall from './sliders/mall.jpg'
+import hospital from './sliders/hospital.jpg'
+
+
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
 import notification3 from "./notification/image-3.png";
@@ -163,5 +168,8 @@ export {
   AhmedBackground2,
   two,
   ArefLogo,
-  ArefLogo2
+  ArefLogo2,
+  classroom,
+  mall,
+  hospital
 };

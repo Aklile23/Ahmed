@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Intro from "./components/Intro";
 import BookNow from "./components/BookNow";
+import SliderHero from "./components/SliderHero";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         {/* <BookNow /> */}
         <Header />
+        <SliderHero />
         <Hero />
         <Intro />
         <Applications />
