@@ -77,7 +77,7 @@ const SliderHero = () => {
       <img
         style={{ ...imageStyles, position: 'relative', zIndex: 1 }} // Position the image relatively
         ref={imageRef}
-        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-20 md:-translate-y-[10%] lg:-translate-y-[23%]"
+        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-20 md:-translate-y-[10%] lg:-translate-y-[23%] md:object-left sm:object-left"
         src={images[currentImageIndex]}
         alt="Slider Image"
       />
