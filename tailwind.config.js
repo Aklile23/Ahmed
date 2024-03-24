@@ -101,6 +101,10 @@ export default {
         ".h6": {
           "@apply font-semibold text-lg leading-8": {},
         },
+        ".h7": {
+          "@apply font-semibold text-[2.5rem] leading-[4rem] md:text-[3.75rem] md:leading-[3.75rem] lg:text-[3.25rem] lg:leading-[4.0625rem] xl:text-[4.75rem] xl:leading-[5.5rem]":
+            {},
+        },
         ".body-1": {
           "@apply text-[0.875rem] leading-[1.5rem] md:text-[1rem] md:leading-[1.75rem] lg:text-[1.25rem] lg:leading-8":
             {},
