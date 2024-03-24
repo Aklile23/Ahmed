@@ -72,12 +72,12 @@ const SliderHero = () => {
   
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative h-[39rem] xl:h-[60rem]">
       <div style={gradientOverlayStyle}></div>
       <img
         style={{ ...imageStyles, position: 'relative', zIndex: 1 }} // Position the image relatively
         ref={imageRef}
-        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-12 md:-translate-y-[10%] lg:-translate-y-[23%]"
+        className="scale-[1.7] translate-y-[8%] md:scale-[1.2] pt-20 mt-20 md:-translate-y-[10%] lg:-translate-y-[23%]"
         src={images[currentImageIndex]}
         alt="Slider Image"
       />
